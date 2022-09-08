@@ -5,7 +5,7 @@
     {
       "fileMatch": ["^test$"],
       "matchStrings": [
-        "version=(?<currentValue>.*?)\nchecksum=(?<currentDigest>.*?)",
+        "version=(?<currentValue>.*?)\nchecksum=(?<currentDigest>.*?)"
       ],
       "matchStringsStrategy": "combination",
       "depNameTemplate": "jgraph/drawio-desktop",
