@@ -5,13 +5,13 @@
     {
       "fileMatch": ["^test$"],
       "matchStrings": [
-        "version=(?<currentValue>.*?)\nchecksum=(?<currentDigest>.*?)"
+        "version=(?<currentValue>.*?)\nchecksum=(?<currentDigest>.*?)\n"
       ],
       "matchStringsStrategy": "combination",
       "depNameTemplate": "jgraph/drawio-desktop",
       "datasourceTemplate": "github-releases",
       "currentValueTemplate": "v{{{currentValue}}}",
-      "autoReplaceStringTemplate": "version={{{replace 'v' '' newVersion}}}\nchecksum={{{newDigest}}}"
+      "autoReplaceStringTemplate": "version={{{replace 'v' '' newVersion}}}\nchecksum={{{newDigest}}}\n"
     }
   ]
 }
